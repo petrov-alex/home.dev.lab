@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net462;net47;net471;net472;net48;net481;net6.0-windows;net6.0-windows;net8.0-windows</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Library</OutputType>
+    <RootNamespace>home.dev.toolkit</RootNamespace>
+    <AssemblyName>home.dev.toolkit</AssemblyName>
+    <!-- Set the CheckEolTargetFramework property to false to fix the warning -->
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <NeutralLanguage>en</NeutralLanguage>
+    <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+    <NoWarn>1701;1702</NoWarn>
+    <Configurations>Debug;Release;Installer</Configurations>
+    <DocumentationFile>..\..\bin\$(Configuration)\home.dev.toolkit.xml</DocumentationFile>
+    <OutputPath>..\..\bin\$(Configuration)\</OutputPath>
+    <LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+    <WarningLevel>6</WarningLevel>
+    <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>    
+  </PropertyGroup>
+
+</Project>
