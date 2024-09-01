@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{1BA227C3-7902-4239-B8E6-486D19823829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "home.dev.toolkit", "home.dev.toolkit\home.dev.toolkit.csproj", "{C8C361C0-A422-474B-8A13-C0FAF719D267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "home.dev.toolkit", "home.dev.toolkit\home.dev.toolkit.csproj", "{C8C361C0-A422-474B-8A13-C0FAF719D267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForm", "TestForm\TestForm.csproj", "{3DE6E12B-344E-4375-9EAE-9994900D2F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{C8C361C0-A422-474B-8A13-C0FAF719D267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8C361C0-A422-474B-8A13-C0FAF719D267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8C361C0-A422-474B-8A13-C0FAF719D267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE6E12B-344E-4375-9EAE-9994900D2F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE6E12B-344E-4375-9EAE-9994900D2F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE6E12B-344E-4375-9EAE-9994900D2F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE6E12B-344E-4375-9EAE-9994900D2F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
