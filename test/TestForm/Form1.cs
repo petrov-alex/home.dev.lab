@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tester
+namespace TestForm
 {
-    public partial class msg : Form
+    public partial class Form1 : Form
     {
-        public msg()
+        public Form1()
         {
             InitializeComponent();
         }
