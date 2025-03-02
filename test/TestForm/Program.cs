@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace TestForm
@@ -6,12 +6,10 @@ namespace TestForm
     internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        /// Главная точка входа для приложения.
         /// </summary>
         [STAThread]
-        static void Main()
-        {
+        static void Main() =>
             Application.Run(new Form1());
-        }
     }
 }

@@ -14,9 +14,8 @@
 // along with CoderLine SkinFramework.  If not, see <http://www.gnu.org/licenses/>.
 //
 // (C) 2010 Daniel Kuschny, (http://www.coderline.net)
-using System.Drawing;
 using System.ComponentModel;
-using SkinFramework.Win32;
+using home.dev.skinframework.Win32;
 
 namespace SkinFramework
 {

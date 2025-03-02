@@ -21,7 +21,7 @@ using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace SkinFramework.Win32
+namespace home.dev.skinframework.Win32
 {
     /// <summary>
     /// This class contains some win32 functions needed for nc drawing
@@ -79,6 +79,7 @@ namespace SkinFramework.Win32
     }
 
     #region Enums
+
     public enum ABMsg
     {
         ABM_NEW = 0,
@@ -101,12 +102,21 @@ namespace SkinFramework.Win32
         ABE_BOTTOM = 3
     }
 
-
+    /// <summary>
+    /// Some windows styles.
+    /// </summary>
     public enum WindowStyles : uint
     {
+        /// <summary>
+        /// Window has a title
+        /// </summary>
         WS_CAPTION = 0x00C00000,
+        /// <summary>
+        /// Windows has a border
+        /// </summary>
         WS_BORDER = 0x00800000,
     }
+
     [Flags]
     public enum DCXFlags : long
     {
@@ -114,6 +124,7 @@ namespace SkinFramework.Win32
         DCX_CACHE = 0x00000002L,
         DCX_CLIPSIBLINGS = 0x00000010L,
     }
+
     public enum HitTest
     {
         HTNOWHERE = 0,
@@ -133,11 +144,13 @@ namespace SkinFramework.Win32
         RDW_ERASENOW = 0x0200,
         RDW_FRAME = 0x0400,
     }
+
     public enum WAFlags
     {
         WA_ACTIVE = 1,
         WA_CLICKACTIVE = 2,
     }
+
     public enum GWLIndex
     {
         GWL_STYLE = (-16),
@@ -289,6 +302,8 @@ namespace SkinFramework.Win32
 
         MOUSEHOVER = 0x2A1
     }
+
+
     #endregion
 
     #region Structs
@@ -425,10 +440,12 @@ namespace SkinFramework.Win32
         {
             return new Rectangle(this.Left, this.Top, this.Width, this.Height);
         }
+
         public static Rectangle ToRectangle(RECT Rectangle)
         {
             return Rectangle.ToRectangle();
         }
+
         public static RECT FromRectangle(Rectangle Rectangle)
         {
             return new RECT(Rectangle.Left, Rectangle.Top, Rectangle.Right, Rectangle.Bottom);
@@ -438,14 +455,17 @@ namespace SkinFramework.Win32
         {
             return Rectangle.ToRectangle();
         }
+
         public static implicit operator RECT(Rectangle Rectangle)
         {
             return new RECT(Rectangle);
         }
+
         public static bool operator ==(RECT Rectangle1, RECT Rectangle2)
         {
             return Rectangle1.Equals(Rectangle2);
         }
+
         public static bool operator !=(RECT Rectangle1, RECT Rectangle2)
         {
             return !Rectangle1.Equals(Rectangle2);
@@ -460,6 +480,7 @@ namespace SkinFramework.Win32
         {
             return Rectangle.Left == _Left && Rectangle.Top == _Top && Rectangle.Right == _Right && Rectangle.Bottom == _Bottom;
         }
+
         public override bool Equals(object Object)
         {
             if (Object is RECT)
@@ -474,5 +495,7 @@ namespace SkinFramework.Win32
             return false;
         }
     }
+
+
     #endregion
 }
