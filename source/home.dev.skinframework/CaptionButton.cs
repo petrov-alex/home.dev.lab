@@ -17,7 +17,7 @@
 using System.ComponentModel;
 using home.dev.skinframework.Win32;
 
-namespace SkinFramework
+namespace home.dev.skinframework
 {
     /// <summary>
     /// This class represents a caption button used for SysCommands like Close, Maximize and Minimize.

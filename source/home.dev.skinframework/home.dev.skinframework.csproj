@@ -30,4 +30,8 @@
     <Folder Include="Painting\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="System.Design" />
+  </ItemGroup>
+
 </Project>
