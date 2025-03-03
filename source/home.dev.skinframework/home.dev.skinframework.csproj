@@ -26,4 +26,8 @@
     <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>    
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Painting\" />
+  </ItemGroup>
+
 </Project>

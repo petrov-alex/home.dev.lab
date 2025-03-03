@@ -94,6 +94,7 @@ namespace home.dev.skinframework.Win32
         ABM_WINDOWPOSCHANGED = 9,
         ABM_SETSTATE = 10
     }
+
     public enum ABEdge
     {
         ABE_LEFT = 0,
